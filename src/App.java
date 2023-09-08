@@ -6,7 +6,7 @@ public class App {
         System.out.println("Hello, World!");
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\koderx\\Desktop\\javaselenium\\javaselenium\\src\\drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://es.wikipedia.org/wiki/Programaci%C3%B3n");
+        driver.get("https://www.facebook.com/");
 
         System.out.println(driver.getTitle());
 
